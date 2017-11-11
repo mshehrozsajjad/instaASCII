@@ -131,7 +131,7 @@
             var mediaID = myArray.query.results.json.media_id;
             var thumbnail = myArray.query.results.json.thumbnail_url;
             thumbnail = thumbnail.replace(/\/$/, "");
-            thumbnail = thumbnail+".html";
+            thumbnail = thumbnail+".txt";
           //  alert(thumbnail+".txt");
             $.ajax({
            url: thumbnail,
